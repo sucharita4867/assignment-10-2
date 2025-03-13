@@ -117,7 +117,6 @@ body {
 
 .change-1-2 {
       text-align: center;
-      /* width: 700px; */
       color: rgba(255, 255, 255, 0.5);
 }
 
@@ -186,4 +185,18 @@ body {
 
       /* habits-change-section responsive */
 
+      .change-1-1 {
+            text-align: center;
+            font-size: 20px;
+            font-weight: 800;
+            line-height: 120%;
+      }
+
+      .change-1-2 {
+            font-size: 14px;
+      }
+
+      .habits-change-2 {
+            flex-direction: column;
+      }
 }
