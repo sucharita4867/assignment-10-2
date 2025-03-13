@@ -7,7 +7,7 @@ body {
       color: white;
       width: 80%;
       margin: auto;
-      margin-top: 50px;
+      /* margin-top: 50px; */
 
 }
 
@@ -19,6 +19,7 @@ body {
 }
 
 .nav-section {
+      border: 1px solid blue;
       display: flex;
       color: white;
       justify-content: center;
@@ -57,6 +58,7 @@ body {
 
 /* banner section style */
 .banner-section {
+      border: 1px solid red;
       display: flex;
       gap: 18%;
       justify-content: space-between;
@@ -102,6 +104,9 @@ body {
 }
 
 /* Change Your Habits section style */
+.habits-change-section {
+      border: 1px solid yellow;
+}
 
 .change-1-1 {
       text-align: center;
@@ -114,6 +119,33 @@ body {
       text-align: center;
       /* width: 700px; */
       color: rgba(255, 255, 255, 0.5);
+}
+
+.habits-change-2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.change-2-1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: none;
+      align-items: center;
+      /* border: 2px solid greenyellow; */
+}
+
+.change-2-2 {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-radius: 50%;
+      /* border: 1px solid gold; */
+}
+
+.change-2-3 {
+      text-align: center;
 }
 
 /* responsive section */
@@ -130,6 +162,7 @@ body {
             display: none;
       }
 
+      /* banner section style */
       .banner-section {
             flex-direction: column;
       }
@@ -150,4 +183,7 @@ body {
             width: 100%;
             border: 1px solid wheat;
       }
+
+      /* habits-change-section responsive */
+
 }
