@@ -102,3 +102,36 @@ body {
 }
 
 /* responsive section */
+
+@media screen and (max-width:576px) {
+      .nav-1-1 {
+            text-decoration: none;
+            color: rgb(230, 83, 60);
+            font-size: 32px;
+            margin-right: 110px;
+      }
+
+      .nav-2 {
+            display: none;
+      }
+
+      .banner-section {
+            flex-direction: column;
+      }
+
+      .btn {
+            display: flex;
+      }
+
+      .banner-1-1 {
+            font-size: 50px;
+            font-weight: 400px;
+            line-height: 65px;
+      }
+
+      .banner-2 {
+            height: 100%;
+            width: 100%;
+            border: 1px solid wheat;
+      }
+}
