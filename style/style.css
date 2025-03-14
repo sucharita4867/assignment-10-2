@@ -1,3 +1,8 @@
+* {
+      margin: 0;
+      padding: 0;
+}
+
 .font {
       font-family: Inter;
 }
@@ -7,7 +12,6 @@ body {
       color: white;
       width: 80%;
       margin: auto;
-      /* margin-top: 50px; */
 
 }
 
@@ -19,7 +23,7 @@ body {
 }
 
 .nav-section {
-      border: 1px solid blue;
+      /* border: 1px solid blue; */
       display: flex;
       color: white;
       justify-content: center;
@@ -58,10 +62,11 @@ body {
 
 /* banner section style */
 .banner-section {
-      border: 1px solid red;
+      /* border: 1px solid red; */
       display: flex;
       gap: 18%;
       justify-content: space-between;
+      margin-top: 50px;
 }
 
 .banner-1 {
@@ -76,6 +81,7 @@ body {
 }
 
 .banner-1-2 {
+      margin-top: 15px;
       color: rgba(255, 255, 255, 0.5);
 }
 
@@ -87,9 +93,11 @@ body {
       background: rgb(230, 83, 60);
       margin-right: 10px;
       color: white;
+      margin-top: 20px;
 }
 
 .banner-1-4 {
+      margin-top: 20px;
       border: none;
       height: 40px;
       width: 190px;
@@ -105,7 +113,8 @@ body {
 
 /* Change Your Habits section style */
 .habits-change-section {
-      border: 1px solid yellow;
+      /* border: 1px solid yellow; */
+      margin-top: 50px;
 }
 
 .change-1-1 {
@@ -116,11 +125,13 @@ body {
 }
 
 .change-1-2 {
+      margin-top: 15px;
       text-align: center;
       color: rgba(255, 255, 255, 0.5);
 }
 
 .habits-change-2 {
+      margin-top: 70px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -140,11 +151,42 @@ body {
       align-items: center;
       text-align: center;
       border-radius: 50%;
-      /* border: 1px solid gold; */
+      margin-bottom: 15px;
 }
 
 .change-2-3 {
+      margin-top: 10px;
       text-align: center;
+      color: rgba(255, 255, 255, 0.5);
+}
+
+/* run section style  */
+.run-section {
+      margin-top: 50px;
+      display: flex;
+      /* width: 80%; */
+      border: 1px solid greenyellow;
+      justify-content: space-between;
+      border-radius: 18px;
+      background: rgb(34, 34, 34);
+}
+
+.rum-1 {
+      padding: 30px;
+      border: 1px solid greenyellow;
+}
+
+.run-1-2 {
+      font-size: 48px;
+      font-weight: 750;
+      line-height: 100%;
+}
+
+.run-2 {
+      padding: 40px;
+      height: 300px;
+      width: 80%;
+
 }
 
 /* responsive section */
