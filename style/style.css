@@ -287,4 +287,10 @@ body {
             margin-left: 30px;
             margin-top: 15px;
       }
+
+      .run-2 {
+            padding: 0px 25px 25px 25px;
+            height: 300px;
+            width: 80%;
+      }
 }
