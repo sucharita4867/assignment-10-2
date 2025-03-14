@@ -198,6 +198,26 @@ body {
 
 }
 
+/*bmi-calculater-section style */
+.bmi-calculater-section {
+      margin-top: 50px;
+}
+
+.bmi-section-1 {
+      font-size: 48px;
+      font-weight: 750;
+      line-height: 100%;
+      text-align: center;
+}
+
+.bmi-section-1-2 {
+      width: 700px;
+      text-align: center;
+      margin-left: 170px;
+      margin-top: 10px;
+      color: rgba(255, 255, 255, 0.5);
+}
+
 /* responsive section */
 
 @media screen and (max-width:576px) {
