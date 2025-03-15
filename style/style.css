@@ -219,14 +219,17 @@ body {
 }
 
 /* table section style */
+.table-bacgraund {
+      width: 100%;
+      background-color: gainsboro;
+}
+
 .table-section {
       width: 100%;
       background-color: rgb(34, 34, 34);
       display: flex;
       justify-content: space-between;
       margin-top: 50px;
-      border: 1px solid greenyellow;
-      /* gap: 40px; */
 }
 
 .table-1 {
@@ -247,16 +250,74 @@ body {
 
 .table-2-2 {
       color: rgba(255, 255, 255, 0.5);
-      margin-bottom: 20px;
-      width: 300px;
+      margin-bottom: 15px;
+      width: 420px;
+}
+
+.table-1-2 {
+      text-align: center;
+}
+
+.table-1-3 {
+      padding-top: 15px;
+      text-align: start;
+      color: rgba(255, 255, 255, 0.5);
+}
+
+.table-1-4 {
+      padding-left: 10px;
 }
 
 td,
-tr,
+th,
 table {
       height: 40px;
-      width: 300px;
-      border: 1px solid white;
+      width: 400px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      border-collapse: collapse;
+}
+
+.from-section-1 {
+      padding: 5px;
+      margin: 3px;
+      height: 30px;
+      width: 250px;
+      border-radius: 8px;
+      border: none;
+      background: rgba(255, 255, 255, 0.1);
+}
+
+.from-section-3 {
+      padding: 5px;
+      margin: 3px;
+      height: 40px;
+      width: 260px;
+      border-radius: 8px;
+      border: none;
+      background: rgba(255, 255, 255, 0.1);
+      color: rgba(255, 255, 255, 0.3);
+}
+
+.from-section-2 {
+      padding: 5px;
+      margin: 3px;
+      height: 40px;
+      width: 530px;
+      border-radius: 8px;
+      border: none;
+      background: rgba(255, 255, 255, 0.1);
+      color: rgba(255, 255, 255, 0.3);
+}
+
+.table-2-3 {
+      border: none;
+      height: 40px;
+      width: 190px;
+      border-radius: 42px;
+      background: rgb(230, 83, 60);
+      color: white;
+      margin-top: 25px;
+      margin-bottom: 30px;
 }
 
 /* responsive section */
@@ -339,7 +400,7 @@ table {
       }
 
       .run-1-3 {
-            width: 290px;
+            width: 250px;
       }
 
       .banner-1-3 {
