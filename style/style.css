@@ -229,6 +229,7 @@ body {
       display: flex;
       justify-content: space-between;
       margin-top: 50px;
+      border-radius: 18px;
 }
 
 .table-1 {
@@ -429,5 +430,27 @@ table {
             text-align: start;
             margin-top: 10px;
             color: rgba(255, 255, 255, 0.5);
+      }
+
+      /* table section style */
+      .table-section {
+            flex-direction: column;
+            margin-top: 50px;
+            text-align: center;
+      }
+
+      .table-1-1 {
+            width: 300px;
+            margin: 30px 0px 30px 0px;
+      }
+
+      td,
+      th,
+      table {
+            margin-left: 23px;
+            height: 40px;
+            width: 250px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-collapse: collapse;
       }
 }
