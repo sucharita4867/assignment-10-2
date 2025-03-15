@@ -684,4 +684,15 @@ table {
             text-align: center;
             margin-left: 0px;
       }
+
+      /* footer section style */
+      .footer-section-top {
+            flex-direction: column;
+      }
+
+      .footer-container-2 {
+            flex-direction: column;
+      }
+
+      ..footer-container-1 {}
 }
