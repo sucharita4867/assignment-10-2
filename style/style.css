@@ -530,8 +530,6 @@ table {
             width: 300px;
             margin-left: 0px;
             text-align: start;
-            margin-top: 10px;
-            color: rgba(255, 255, 255, 0.5);
       }
 
       /* table section style */
@@ -583,5 +581,19 @@ table {
 
       .table-2-3 {
             margin-left: 55px;
+      }
+
+      /* team section style */
+      .team-1 {
+            font-size: 30px;
+            font-weight: 750;
+            line-height: 100%;
+            text-align: center;
+      }
+
+      .team-1-2 {
+            width: 300px;
+            text-align: center;
+            margin-left: 0px;
       }
 }
