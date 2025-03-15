@@ -118,7 +118,7 @@ body {
 
 .change-1-1 {
       text-align: center;
-      font-size: 48px;
+      font-size: 46px;
       font-weight: 800;
       line-height: 120%;
 }
@@ -203,7 +203,7 @@ body {
 }
 
 .bmi-section-1 {
-      font-size: 48px;
+      font-size: 46px;
       font-weight: 750;
       line-height: 100%;
       text-align: center;
@@ -218,7 +218,7 @@ body {
 }
 
 /* table section style */
-.table-bacgraund {
+.table-background {
       width: 100%;
       background-color: gainsboro;
 }
@@ -318,6 +318,108 @@ table {
       color: white;
       margin-top: 25px;
       margin-bottom: 30px;
+}
+
+/* team section style */
+.team-section {
+      margin-top: 50px;
+}
+
+.team-1 {
+      font-size: 46px;
+      font-weight: 750;
+      line-height: 100%;
+      text-align: center;
+}
+
+.team-1-2 {
+      width: 700px;
+      text-align: center;
+      margin-left: 170px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      color: rgba(255, 255, 255, 0.5);
+}
+
+.image-containar {
+      /* width: 100vw; */
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      background-color: rgb(34, 34, 34);
+      border-radius: 18px;
+}
+
+.trainer-name {
+      padding-left: 9px;
+      padding-top: 5px;
+}
+
+.trainer-0 {
+      padding-left: 9px;
+      color: rgba(255, 255, 255, 0.555);
+}
+
+.trainer-1 {
+      width: 326px;
+      height: 272px;
+      background-image: url(../images/trainer1.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border-radius: 10px;
+      /* display: flex;
+      align-items: flex-end; */
+      /* flex-direction: column; */
+}
+
+.trainer-2 {
+      width: 326px;
+      height: 272px;
+      background-image: url(../images/trainer2.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border-radius: 10px;
+}
+
+.trainer-3 {
+      width: 326px;
+      height: 272px;
+      background-image: url(../images/trainer3.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 10px;
+}
+
+.trainer-4 {
+      width: 326px;
+      height: 272px;
+      background-image: url(../images/trainer4.png);
+      background-repeat: no-repeat;
+      background-position: 75%;
+      background-size: cover;
+      border-radius: 10px;
+}
+
+.trainer-5 {
+      width: 326px;
+      height: 272px;
+      background-image: url(../images/trainer5.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 10px;
+}
+
+.trainer-6 {
+      width: 326px;
+      height: 272px;
+      background-image: url(../images/trainer6.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 10px;
 }
 
 /* responsive section */
