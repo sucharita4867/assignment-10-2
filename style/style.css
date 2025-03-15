@@ -218,6 +218,47 @@ body {
       color: rgba(255, 255, 255, 0.5);
 }
 
+/* table section style */
+.table-section {
+      width: 100%;
+      background-color: rgb(34, 34, 34);
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      border: 1px solid greenyellow;
+      /* gap: 40px; */
+}
+
+.table-1 {
+      width: 50%;
+}
+
+.table-1-1 {
+      margin: 30px 0px 30px 0px;
+}
+
+.table-2 {
+      width: 50%;
+}
+
+.table-2-1 {
+      margin: 30px 0px 20px 0px;
+}
+
+.table-2-2 {
+      color: rgba(255, 255, 255, 0.5);
+      margin-bottom: 20px;
+      width: 300px;
+}
+
+td,
+tr,
+table {
+      height: 40px;
+      width: 300px;
+      border: 1px solid white;
+}
+
 /* responsive section */
 
 @media screen and (max-width:576px) {
