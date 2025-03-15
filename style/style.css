@@ -245,7 +245,7 @@ body {
 }
 
 .table-2-1 {
-      margin: 30px 0px 20px 0px;
+      margin: 30px 0px 30px 0px;
 }
 
 .table-2-2 {
@@ -452,5 +452,34 @@ table {
             width: 250px;
             border: 1px solid rgba(255, 255, 255, 0.3);
             border-collapse: collapse;
+      }
+
+      .table-2-1 {
+            text-align: center;
+            width: 300px;
+      }
+
+      .table-2-2 {
+            padding: 0px 10px 0px 10px;
+            text-align: start;
+            width: 290px;
+      }
+
+      .from-section-0 {
+            padding: 0px 10px 0px 10px;
+      }
+
+      .from-section-1 {
+            height: 30px;
+            width: 260px;
+      }
+
+      .from-section-3,
+      .from-section-2 {
+            width: 270px;
+      }
+
+      .table-2-3 {
+            margin-left: 55px;
       }
 }
