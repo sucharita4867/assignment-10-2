@@ -62,7 +62,6 @@ body {
 
 /* banner section style */
 .banner-section {
-      /* border: 1px solid red; */
       display: flex;
       gap: 18%;
       justify-content: space-between;
@@ -112,8 +111,8 @@ body {
 }
 
 /* Change Your Habits section style */
+
 .habits-change-section {
-      /* border: 1px solid yellow; */
       margin-top: 50px;
 }
 
@@ -394,7 +393,7 @@ table {
             width: 200px;
             margin-top: 13px;
             font-size: 30px;
-            font-weight: 900;
+            font-weight: 850;
             line-height: 150%;
 
       }
@@ -414,5 +413,13 @@ table {
             padding: 0px 25px 25px 25px;
             height: 300px;
             width: 80%;
+      }
+
+      /* bmi section style */
+      .bmi-section-1 {
+            font-size: 30px;
+            font-weight: 850;
+            line-height: 100%;
+            text-align: center;
       }
 }
