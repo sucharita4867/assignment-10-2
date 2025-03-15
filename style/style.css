@@ -420,6 +420,14 @@ table {
             font-size: 30px;
             font-weight: 850;
             line-height: 100%;
-            text-align: center;
+            text-align: start;
+      }
+
+      .bmi-section-1-2 {
+            width: 300px;
+            margin-left: 0px;
+            text-align: start;
+            margin-top: 10px;
+            color: rgba(255, 255, 255, 0.5);
       }
 }
