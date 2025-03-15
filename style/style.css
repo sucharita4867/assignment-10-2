@@ -10,8 +10,8 @@
 body {
       background-color: black;
       color: white;
-      width: 80%;
-      margin: auto;
+      /* width: 80%;
+      margin: auto; */
 
 }
 
@@ -30,6 +30,8 @@ body {
       text-align: center;
       gap: 50%;
       margin-top: 25px;
+      width: 80%;
+      margin: auto;
 }
 
 .nav-1-1 {
@@ -66,6 +68,8 @@ body {
       gap: 18%;
       justify-content: space-between;
       margin-top: 50px;
+      width: 80%;
+      margin: auto;
 }
 
 .banner-1 {
@@ -114,9 +118,13 @@ body {
 
 .habits-change-section {
       margin-top: 50px;
+      width: 80%;
+      margin: auto;
+      margin-bottom: 50px;
 }
 
 .change-1-1 {
+      margin-top: 50px;
       text-align: center;
       font-size: 46px;
       font-weight: 800;
@@ -168,6 +176,8 @@ body {
       justify-content: space-between;
       border-radius: 18px;
       background: rgb(34, 34, 34);
+      width: 80%;
+      margin: auto;
 }
 
 .run-1 {
@@ -198,8 +208,11 @@ body {
 }
 
 /*bmi-calculater-section style */
+
 .bmi-calculater-section {
       margin-top: 50px;
+      width: 80%;
+      margin: auto;
 }
 
 .bmi-section-1 {
@@ -207,6 +220,7 @@ body {
       font-weight: 750;
       line-height: 100%;
       text-align: center;
+      margin-top: 50px;
 }
 
 .bmi-section-1-2 {
@@ -218,6 +232,7 @@ body {
 }
 
 /* table section style */
+
 .table-background {
       width: 100%;
       background-color: gainsboro;
@@ -229,7 +244,9 @@ body {
       display: flex;
       justify-content: space-between;
       margin-top: 50px;
-      border-radius: 18px;
+      /* border-radius: 18px; */
+      /* width: 80%;
+      margin: auto; */
 }
 
 .table-1 {
@@ -238,6 +255,7 @@ body {
 
 .table-1-1 {
       margin: 30px 0px 30px 0px;
+      margin-left: 120px;
 }
 
 .table-2 {
@@ -266,6 +284,10 @@ body {
 
 .table-1-4 {
       padding-left: 10px;
+}
+
+.table-0 {
+      margin-left: 120px;
 }
 
 td,
@@ -323,6 +345,8 @@ table {
 /* team section style */
 .team-section {
       margin-top: 50px;
+      width: 80%;
+      margin: auto;
 }
 
 .team-1 {
@@ -330,6 +354,7 @@ table {
       font-weight: 750;
       line-height: 100%;
       text-align: center;
+      margin-top: 50px;
 }
 
 .team-1-2 {
@@ -417,6 +442,65 @@ table {
       background-repeat: no-repeat;
       background-size: cover;
       border-radius: 10px;
+}
+
+/* footer section style */
+.footer-section {
+      background-color: rgb(34, 34, 34);
+}
+
+.footer-section-top {
+      margin-top: 50px;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 50px;
+}
+
+.footer-container-1 {
+      margin-left: 130px;
+      /* border: 1px solid greenyellow; */
+}
+
+.footer-container-2 {
+      width: 500px;
+      /* border: 1px solid yellow; */
+      margin-right: 140px;
+      display: flex;
+      justify-content: space-between;
+}
+
+.footer-con-1 {
+      padding-top: 20px;
+      padding-bottom: 23px;
+      font-size: 20px;
+}
+
+.footer-con-2 {
+      color: rgba(255, 255, 255, 0.5);
+      margin-bottom: 8px;
+}
+
+.footre-con-0 {
+      padding-left: 30px;
+}
+
+.footer-1 {
+      color: rgb(230, 83, 60);
+      font-size: 28px;
+      margin-top: 30px;
+      font-size: 60px;
+}
+
+.footer-2 {
+      margin-top: 15px;
+      width: 400px;
+      color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-container-3 {
+      text-align: center;
+      margin-top: 40px;
+      color: rgba(255, 255, 255, 0.5);
 }
 
 /* responsive section */
@@ -539,6 +623,11 @@ table {
       .table-1-1 {
             width: 300px;
             margin: 30px 0px 30px 0px;
+            text-align: center;
+      }
+
+      .table-0 {
+            margin-left: 30px;
       }
 
       td,
@@ -552,17 +641,19 @@ table {
       }
 
       .table-2-1 {
+            margin-left: -10px;
             text-align: center;
             width: 300px;
       }
 
       .table-2-2 {
-            padding: 0px 10px 0px 10px;
+            padding: 0px 10px 0px 30px;
             text-align: start;
             width: 290px;
       }
 
       .from-section-0 {
+            margin-left: 14px;
             padding: 0px 10px 0px 10px;
       }
 
@@ -577,7 +668,7 @@ table {
       }
 
       .table-2-3 {
-            margin-left: 55px;
+            margin-left: 30px;
       }
 
       /* team section style */
