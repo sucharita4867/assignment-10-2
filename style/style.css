@@ -7,6 +7,10 @@
       font-family: Inter;
 }
 
+#display {
+      display: none;
+}
+
 body {
       background-color: black;
       color: white;
@@ -22,14 +26,16 @@ body {
       font-style: normal;
 }
 
+.hea {
+      margin-bottom: 20px;
+}
+
 .nav-section {
-      /* border: 1px solid blue; */
       display: flex;
       color: white;
       justify-content: center;
       text-align: center;
       gap: 50%;
-      margin-top: 25px;
       width: 80%;
       margin: auto;
 }
