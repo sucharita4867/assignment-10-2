@@ -27,6 +27,8 @@ body {
 }
 
 .hea {
+      width: 80%;
+      margin: auto;
       margin-bottom: 20px;
 }
 
@@ -36,8 +38,8 @@ body {
       justify-content: center;
       text-align: center;
       gap: 50%;
-      width: 80%;
-      margin: auto;
+      /* width: 80%; */
+      /* margin: auto; */
 }
 
 .nav-1-1 {
@@ -205,12 +207,10 @@ body {
 }
 
 .run-2 {
-      /* border-radius: 15px; */
       text-align: start;
       padding: 40px;
       height: 300px;
       width: 80%;
-
 }
 
 /*bmi-calculater-section style */
@@ -460,6 +460,7 @@ table {
       display: flex;
       justify-content: space-between;
       padding-top: 50px;
+      margin-bottom: 35px;
 }
 
 .footer-container-1 {
@@ -467,7 +468,7 @@ table {
 }
 
 .footer-container-2 {
-      width: 500px;
+      /* width: 500px; */
       margin-right: 140px;
       display: flex;
       justify-content: space-between;
@@ -480,7 +481,7 @@ table {
 }
 
 .footer-con-2 {
-      /* width: 200px; */
+      width: 200px;
       color: rgba(255, 255, 255, 0.5);
       margin-bottom: 8px;
       /* border: 1px solid red; */
@@ -491,8 +492,7 @@ table {
 }
 
 .footer-1 {
-      /* color: rgb(230, 83, 60); */
-      font-size: 28px;
+      color: rgb(230, 83, 60);
       margin-top: 30px;
       font-size: 60px;
 }
@@ -503,24 +503,33 @@ table {
       color: rgba(255, 255, 255, 0.5);
 }
 
+.footer-border-section {
+      width: 65%;
+      margin: auto;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
 .footer-container-3 {
       text-align: center;
-      margin-top: 40px;
+      margin-top: 35px;
+      padding-bottom: 10px;
       color: rgba(255, 255, 255, 0.5);
 }
+
 
 /* responsive section */
 
 @media screen and (max-width:576px) {
-      .nav-1-1 {
-            text-decoration: none;
-            color: rgb(230, 83, 60);
-            font-size: 32px;
-            margin-right: 110px;
+      .hea {}
+
+      .nav-section {
+            margin: auto;
+            font-size: 20px;
       }
 
       .nav-2 {
             display: none;
+            width: 0%;
       }
 
       /* banner section style */
@@ -696,6 +705,8 @@ table {
       /* footer section style */
       .footer-section-top {
             flex-direction: column;
+            margin-left: 30px;
+            /* border: 1px solid red; */
       }
 
       .footer-container-2 {
@@ -706,8 +717,14 @@ table {
             margin-left: 30px;
       }
 
+      .footer-1 {
+            font-size: 45px;
+            margin-top: 20px;
+      }
+
       .footer-2 {
             width: 290px;
+            /* width: 400px; */
       }
 
       #footer {
@@ -718,11 +735,17 @@ table {
             margin-left: 30px;
       }
 
+      .footer-border-section {
+            width: 70%;
+      }
+
       .footer-container-3 {
             text-align: start;
-            margin-left: 30px;
+            margin-left: 50px;
             margin-top: 30px;
+            padding-bottom: 10px;
       }
+
 
       .footer-con-1 {
             /* border: 2px solid blue; */
